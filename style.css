@@ -19,10 +19,6 @@ footer,header{
   color:#fff;
   text-align:center;
 }
-h1{
-text-allign:center;
-  font-size:xsmall;
-}
 p{
   margin:0;
   font-size:large;
@@ -33,7 +29,6 @@ p{
   font-family:'Times New Roman',Times,serif;
   font-size:medium;
 }
-
 
 a.btn{
   border-radius:12px;
@@ -79,10 +74,10 @@ a.btn:hover{ background-color:#314EB5 }
 
 .maintext1{
   display:flex;
-  margin-right:2rem;
-  margin-left:2rem;
+  margin-right:zcm;
+  margin-left:8cm;
   font-family:'Times New Roman',Times,serif;
-  font-size:clamp(14px,1.5vw,16px);
+  font-size:medium;
 }
 
 .mainimage{
@@ -105,6 +100,7 @@ img{
   max-width:100%;
   height:auto;
 }
+
 
 
 
