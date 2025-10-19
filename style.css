@@ -82,7 +82,6 @@ a.btn:hover{ background-color:#314EB5 }
   font-size:clamp(14px,1.5vw,16px);
 }
 
-/* картинки */
 .mainimage{
   max-width:100%;
   height:auto;
@@ -96,10 +95,11 @@ a.btn:hover{ background-color:#314EB5 }
   display:block;
 }
 
-/* універсально, але без жорстких розмірів */
+
 img{
   display:block;
   margin:0 auto;
   max-width:100%;
   height:auto;
 }
+
