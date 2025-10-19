@@ -1,99 +1,105 @@
-body {
-  
-  margin: 0;
-  padding: 0;
-  background-color: #ddb075;
+*{box-sizing:border-box}
+
+body{
+  margin:0;
+  padding:0;
+  background-color:#ddb075;
 }
 
- 
-  footer, header {
-    font-family: 'Franklin Gothic Medium';
-  width: 100%;
-  background-color: #1d3f9e;
-  color: white;
-  text-align: center;
-  }
-.uppertext {
-  font-family: 'Franklin Gothic Medium';
-  color: white;
-  text-align: center;
+footer,header{
+  font-family:'Franklin Gothic Medium','Franklin Gothic',Arial,sans-serif;
+  width:100%;
+  background-color:#1d3f9e;
+  color:#fff;
+  text-align:center;
 }
 
-p {
-  margin: 0;
-  font-size: large;
-  text-align: center;
+.uppertext{
+  font-family:'Franklin Gothic Medium','Franklin Gothic',Arial,sans-serif;
+  color:#fff;
+  text-align:center;
 }
 
-.maintext {
-  font-family: 'Times New Roman', Times;
-  font-size: medium;
+p{
+  margin:0;
+  font-size:large;
+  text-align:center;
 }
-a{
+
+.maintext{
+  font-family:'Times New Roman',Times,serif;
+  font-size:medium;
+}
+
+/* кнопки через <a> */
+a.btn{
   border-radius:12px;
-  flexbox-align: center;
-    color:#9AD0FF;
-    background-color: #1E3A8A;
-    display:inline-block; 
+  color:#9AD0FF;
+  background-color:#1E3A8A;
+  display:inline-block;
+  padding:.5rem .9rem;
+  text-decoration:none;
+  transition:.2s;
 }
-.sidebar {
-  width: 250px;
-  background-color: #1E3A8A;
-  color: white;
-  padding: 20px;
-  height: 100vh; 
-  position: fixed; 
-  top: 0;
-  left: 0;
+a.btn:hover{ background-color:#314EB5 }
+
+/* сайдбар */
+.sidebar{
+  width:250px;
+  background-color:#1E3A8A;
+  color:#fff;
+  padding:20px;
+  height:100vh;
+  position:fixed;
+  top:0;
+  left:0;
 }
 
-.sidebar h2 {
-  text-align: center;
-}
+.sidebar h2{ text-align:center }
 
-.sidebar a {
-  display: block;
-  color: #EAC58D;
-  text-decoration: none;
-  padding: 10px 0;
-  transition: 0.2s;
-}
-
-.sidebar a:hover {
-  background-color: #314EB5;
-}
-
-.main {
-  margin-left: 250px; 
-  padding: 20px;
-  background-color: #ddb075;
-  min-height: 100vh;
-}
-.maintext1 {
-display: flex;
-margin-right: 2cm;
-margin-left: 10cm;
-font-family: 'Times New Roman', Times;
-font-size: x-small;
-}
-.mainimage{
-  height: 10cm;
-  width: 15cm;
+.sidebar a{
   display:block;
-  margin: 0 auto;
+  color:#EAC58D;
+  text-decoration:none;
+  padding:10px 0;
+  transition:.2s;
+  background:transparent;
+}
+.sidebar a:hover{ background-color:#314EB5 }
+
+.main{
+  margin-left:250px;
+  padding:20px;
+  background-color:#ddb075;
+  min-height:100vh;
 }
 
-.icon-btn img {
-  width: 40px;
-  height: 40px;
+.maintext1{
+  display:flex;
+  margin-right:2rem;
+  margin-left:2rem;
+  font-family:'Times New Roman',Times,serif;
+  font-size:clamp(14px,1.5vw,16px);
 }
-img {
-  display: block;
-  margin: 0 auto;
+
+/* картинки */
+.mainimage{
+  max-width:100%;
+  height:auto;
+  display:block;
+  margin:0 auto;
 }
 
+.icon-btn img{
+  width:40px;
+  height:40px;
+  display:block;
+}
 
-
-
-
-
+/* універсально, але без жорстких розмірів */
+img{
+  display:block;
+  margin:0 auto;
+  max-width:100%;
+  height:auto;
+}
