@@ -31,7 +31,7 @@ p{
   font-size:medium;
 }
 
-/* кнопки через <a> */
+
 a.btn{
   border-radius:12px;
   color:#9AD0FF;
@@ -43,7 +43,7 @@ a.btn{
 }
 a.btn:hover{ background-color:#314EB5 }
 
-/* сайдбар */
+
 .sidebar{
   width:250px;
   background-color:#1E3A8A;
@@ -102,4 +102,5 @@ img{
   max-width:100%;
   height:auto;
 }
+
 
