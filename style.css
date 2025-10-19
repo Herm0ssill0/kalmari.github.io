@@ -1,4 +1,4 @@
-*{box-sizing:border-box}
+р1*{box-sizing:border-box}
 
 body{
   margin:0;
@@ -19,7 +19,9 @@ footer,header{
   color:#fff;
   text-align:center;
 }
-
+h1{
+text-allign:center;
+}
 p{
   margin:0;
   font-size:large;
@@ -102,5 +104,6 @@ img{
   max-width:100%;
   height:auto;
 }
+
 
 
