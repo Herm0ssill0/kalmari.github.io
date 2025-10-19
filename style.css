@@ -29,14 +29,9 @@ p {
   font-family: 'Times New Roman', Times;
   font-size: medium;
 }
-
-img {
-  height: 10cm;
-  width: 15cm;
-  display: block;
-  margin: 0 auto;
-}
 a{
+  border-radius:12px;
+  flexbox-align: center;
     color:#9AD0FF;
     background-color: #1E3A8A;
     display:inline-block; 
@@ -80,8 +75,6 @@ margin-right: 2cm;
 margin-left: 10cm;
 font-family: 'Times New Roman', Times;
 font-size: x-small;
-
-}
 }
 .mainimage{
   height: 10cm;
@@ -89,7 +82,9 @@ font-size: x-small;
   display:block;
   margin: 0 auto;
 }
+
 .icon-btn img {
   width: 40px;
   height: 40px;
 }
+
