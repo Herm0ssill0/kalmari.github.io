@@ -74,7 +74,7 @@ a.btn:hover{ background-color:#314EB5 }
 
 .maintext1{
   display:flex;
-  margin-right:zcm;
+  margin-right:4cm;
   margin-left:8cm;
   font-family:'Times New Roman',Times,serif;
   font-size:medium;
@@ -100,6 +100,7 @@ img{
   max-width:100%;
   height:auto;
 }
+
 
 
 
