@@ -21,6 +21,7 @@ footer,header{
 }
 h1{
 text-allign:center;
+  font-size:xsmall;
 }
 p{
   margin:0;
@@ -104,6 +105,7 @@ img{
   max-width:100%;
   height:auto;
 }
+
 
 
 
