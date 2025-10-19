@@ -80,4 +80,16 @@ margin-right: 2cm;
 margin-left: 10cm;
 font-family: 'Times New Roman', Times;
 font-size: x-small;
+
+}
+}
+.mainimage{
+  height: 10cm;
+  width: 15cm;
+  display:block;
+  margin: 0 auto;
+}
+.icon-btn img {
+  width: 40px;
+  height: 40px;
 }
